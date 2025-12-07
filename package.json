@@ -1,16 +1,12 @@
 {
   "name": "loginpage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node Backend/server.js",
-    "dev": "node Backend/server.js"
-  },
+  "main": "server.js",
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.2.3",
@@ -19,3 +15,4 @@
     "mongoose": "^9.0.0"
   }
 }
+
